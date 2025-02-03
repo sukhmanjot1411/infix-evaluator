@@ -39,3 +39,9 @@ This program converts an infix expression (mathematical expression with operator
 2) Operands are pushed onto the stack.
 
 3) Operators pop operands, perform the operation, and push the result
+
+Example:
+
+Enter an infix expression: 10-5+2*3^2
+Postfix expression: 10,5,-,2,3,2,^,*,+
+Postfix expression eval result: 23
